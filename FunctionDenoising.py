@@ -26,7 +26,7 @@ class TridiagonalMatrices:
         self._b = b.copy()
         self._c = c.copy()
 
-        # To ensure the LU factorization is only computed once, will be used in question 1.4
+        # To ensure the LU factorization is only computed once
         self._A_is_decomposed = False
 
     @property
